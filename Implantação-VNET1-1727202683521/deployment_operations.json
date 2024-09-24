@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/e42f46c2-a039-426e-ac27-38279f83270c/resourceGroups/AZ900_LAB_DIO/providers/Microsoft.Resources/deployments/VNET1-1727202683521/operations/4D2F99A15818BCFF",
+    "operationId": "4D2F99A15818BCFF",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-09-24T18:31:52.9695738Z",
+      "duration": "PT7.0295154S",
+      "trackingId": "fee65b05-a632-47ad-ba89-69cba44e23e1",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/e42f46c2-a039-426e-ac27-38279f83270c/resourceGroups/AZ900_LAB_DIO/providers/Microsoft.Network/virtualNetworks/VNET1",
+        "resourceType": "Microsoft.Network/virtualNetworks",
+        "resourceName": "VNET1"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/e42f46c2-a039-426e-ac27-38279f83270c/resourceGroups/AZ900_LAB_DIO/providers/Microsoft.Resources/deployments/VNET1-1727202683521/operations/08584744041818577724",
+    "operationId": "08584744041818577724",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-09-24T18:31:53.4051876Z",
+      "duration": "PT7.4651292S",
+      "trackingId": "d3f41bd6-859c-4de5-89e9-ad4fb965b41e",
+      "statusCode": "OK"
+    }
+  }
+]

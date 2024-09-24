@@ -1,0 +1,244 @@
+{
+  "id": "/subscriptions/e42f46c2-a039-426e-ac27-38279f83270c/resourceGroups/AZ900_LAB_DIO/providers/Microsoft.Resources/deployments/VNET1-1727202683521",
+  "name": "VNET1-1727202683521",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "7656956330183677142",
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "brazilsouth"
+      },
+      "extendedLocation": {
+        "type": "Object",
+        "value": {}
+      },
+      "virtualNetworkName": {
+        "type": "String",
+        "value": "VNET1"
+      },
+      "tagsByResource": {
+        "type": "Object",
+        "value": {
+          "Microsoft.Network/virtualNetworks": {},
+          "Microsoft.Network/ddosProtectionPlans": {},
+          "Microsoft.Network/publicIPAddresses": {},
+          "Microsoft.Network/azureFirewalls": {},
+          "Microsoft.Network/bastionHosts": {},
+          "Microsoft.Network/natGateways": {},
+          "Microsoft.Network/publicIPPrefixes": {},
+          "Microsoft.Network/networkSecurityGroups": {}
+        }
+      },
+      "addressSpace": {
+        "type": "Object",
+        "value": {
+          "addressPrefixes": [
+            "10.0.0.0/16"
+          ]
+        }
+      },
+      "encryptionEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "encryptionEnforcement": {
+        "type": "String",
+        "value": "AllowUnencrypted"
+      },
+      "subnets": {
+        "type": "Array",
+        "value": [
+          {
+            "name": "default",
+            "properties": {
+              "addressPrefixes": [
+                "10.0.0.0/24"
+              ]
+            }
+          }
+        ]
+      },
+      "ddosProtectionPlanEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "firewallEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "bastionEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "ddosProtectionPlanIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "firewallPublicIpAddressIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "firewallPolicyIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "firewallPolicyManagementPublicIPAddressIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "bastionPublicIpAddressIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "bastionNsgIsNew": {
+        "type": "Bool",
+        "value": false
+      },
+      "ddosProtectionPlanName": {
+        "type": "String",
+        "value": "##ddos-protection-plan-name-not-set##"
+      },
+      "ddosProtectionPlanId": {
+        "type": "String",
+        "value": "##ddos-protection-plan-id-not-set##"
+      },
+      "firewallName": {
+        "type": "String",
+        "value": "##firewall-name-not-set##"
+      },
+      "firewallSkuTier": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "firewallPublicIpAddressName": {
+        "type": "String",
+        "value": "##firewall-public-ip-name-not-set##"
+      },
+      "firewallPublicIpAddressId": {
+        "type": "String",
+        "value": ""
+      },
+      "firewallPolicyName": {
+        "type": "String",
+        "value": "##firewall-policy-name-not-set##"
+      },
+      "firewallPolicyId": {
+        "type": "String",
+        "value": "##firewall-policy-id-not-set##"
+      },
+      "firewallPolicyTier": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "firewallPolicyManagementPublicIPAddressName": {
+        "type": "String",
+        "value": "##firewall-policy-management-public-i-p-address-name-not-set##"
+      },
+      "firewallPolicyManagementPublicIPAddressId": {
+        "type": "String",
+        "value": "##firewall-policy-management-public-i-p-address-id-not-set##"
+      },
+      "bastionName": {
+        "type": "String",
+        "value": "##bastion-name-not-set##"
+      },
+      "bastionPublicIpAddressName": {
+        "type": "String",
+        "value": "##bastion-public-ip-address-name-not-set##"
+      },
+      "bastionPublicIPAddressId": {
+        "type": "String",
+        "value": ""
+      },
+      "bastionNsgName": {
+        "type": "String",
+        "value": "##bastion-nsg-name-not-set##"
+      },
+      "bastionNsgId": {
+        "type": "String",
+        "value": "##bastion-nsg-id-not-set##"
+      },
+      "natGatewaysWithNewPublicIpAddress": {
+        "type": "Array",
+        "value": []
+      },
+      "natGatewaysWithoutNewPublicIpAddress": {
+        "type": "Array",
+        "value": []
+      },
+      "natGatewayPublicIpAddressesNewNames": {
+        "type": "Array",
+        "value": []
+      },
+      "networkSecurityGroupsNew": {
+        "type": "Array",
+        "value": []
+      },
+      "ipv6Enabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "subnetCount": {
+        "type": "Int",
+        "value": 1
+      },
+      "addressSpaceStartingAddressChanged": {
+        "type": "Bool",
+        "value": false
+      },
+      "addressSpaceAddressSizeChanged": {
+        "type": "Bool",
+        "value": false
+      },
+      "defaultSubnetChanged": {
+        "type": "Bool",
+        "value": true
+      },
+      "subnetsInfo": {
+        "type": "Array",
+        "value": [
+          {
+            "cidr": "10.0.0.0/24",
+            "name": "Default",
+            "natGw": "none",
+            "nsg": "none",
+            "udr": "none"
+          }
+        ]
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2024-09-24T18:31:53.4257424Z",
+    "duration": "PT8.8553221S",
+    "correlationId": "fdf9b33d-84e1-4572-82e4-51a7ca7b1775",
+    "providers": [
+      {
+        "namespace": "Microsoft.Network",
+        "resourceTypes": [
+          {
+            "resourceType": "virtualNetworks",
+            "locations": [
+              "brazilsouth"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/e42f46c2-a039-426e-ac27-38279f83270c/resourceGroups/AZ900_LAB_DIO/providers/Microsoft.Network/virtualNetworks/VNET1"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "primaryResourceId": "/subscriptions/e42f46c2-a039-426e-ac27-38279f83270c/resourcegroups/AZ900_LAB_DIO/providers/Microsoft.Network/virtualNetworks/VNET1",
+    "marketplaceItemId": "Microsoft.VirtualNetwork-ARM"
+  }
+}
